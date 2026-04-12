@@ -1,8 +1,36 @@
 # Windscribe VPN Tester
 
+**[Persian / فارسی](README.fa.md)**
+
 Automated tool that tests every combination of **location x protocol:port** on Windscribe VPN and reports which ones work, along with latency and connection time. Useful for finding the fastest and most reliable VPN configurations for your network.
 
 Works on **macOS** and **Windows**.
+
+## Quick Start (Easy Mode)
+
+Don't want to deal with commands? Just use the launcher scripts — they check everything for you and guide you through a simple menu.
+
+### macOS / Linux
+
+```bash
+git clone https://github.com/KianooshSoleimani/windscribe-vpn-tester.git
+cd windscribe-vpn-tester
+./run.sh
+```
+
+### Windows
+
+```powershell
+git clone https://github.com/KianooshSoleimani/windscribe-vpn-tester.git
+cd windscribe-vpn-tester
+run.bat
+```
+
+The script will:
+1. Check if Node.js is installed (and the correct version)
+2. Check if Windscribe is installed and running
+3. Install dependencies automatically
+4. Show you a simple menu to choose what to test
 
 ## How It Works
 
